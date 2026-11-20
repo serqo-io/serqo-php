@@ -34,6 +34,16 @@ final class Client
         return $this->request('POST', '/v1/search', $query, true, $headers);
     }
 
+    /** Fetch real-time search suggestions or run multi-round keyword expansion. */
+    public function autocomplete(array $query, ?string $idempotencyKey = null): array
+    {
+        $headers = [];
+        if ($idempotencyKey !== null && $idempotencyKey !== '') {
+            $headers['Idempotency-Key'] = $idempotencyKey;
+        }
+        return $this->request('POST', '/v1/autocomplete', $query, true, $headers);
+    }
+
     /** Return current search engines and supported types. */
     public function engines(): array
     {
