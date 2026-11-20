@@ -1,6 +1,6 @@
 # Serqo PHP SDK
 
-Official PHP client for the [Serqo Search API](https://serqo.io). Serqo provides real-time, low-latency Google, Bing, Baidu, and multi-engine SERP data. New accounts get 100 free requests on [serqo.io](https://serqo.io).
+Official PHP client for the [Serqo Search API](https://serqo.io). Retrieve clean, structured Google & Bing SERP results in JSON with zero proxy setup. Get started with 100 free requests on [serqo.io](https://serqo.io).
 
 Requires PHP 8.1 or later and the cURL extension.
 
