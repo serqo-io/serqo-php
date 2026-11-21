@@ -56,3 +56,13 @@ Keep the API key in server-side configuration. Methods return the full response 
 - API failures throw `Serqo\SerqoError` with `status`, `apiCode`, `requestId`, `retryable`, `retryAfterMs`, and `details` properties.
 - Searches are not retried automatically. Reuse the same idempotency key only for identical parameters.
 - See the [Serqo API Documentation](https://serqo.io/docs) and [shared API reference](API.md) for all search parameters, response fields, and pagination behavior.
+
+---
+
+## Documentation & Support
+
+- **Official Website**: [https://serqo.io](https://serqo.io)
+- **Web Documentation**: [https://serqo.io/docs](https://serqo.io/docs)
+- **API Reference**: [API.md](API.md)
+- **Get API Key (100 Free Credits)**: [https://serqo.io](https://serqo.io)
+- **License**: MIT
