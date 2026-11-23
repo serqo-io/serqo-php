@@ -1,6 +1,6 @@
 # Serqo PHP SDK
 
-Official PHP client for the [Serqo Search API](https://serqo.io). Retrieve clean, structured Google & Bing SERP results in JSON with zero proxy setup. Get started with 100 free requests on [serqo.io](https://serqo.io).
+Official PHP client for the [Serqo Search API](https://serqo.io). Retrieve clean, structured Google & Bing SERP results in JSON with zero proxy setup. Get started with 500 free requests on [serqo.io](https://serqo.io).
 
 Requires PHP 8.1 or later and the cURL extension.
 
@@ -64,5 +64,5 @@ Keep the API key in server-side configuration. Methods return the full response 
 - **Official Website**: [https://serqo.io](https://serqo.io)
 - **Web Documentation**: [https://serqo.io/docs](https://serqo.io/docs)
 - **API Reference**: [API.md](API.md)
-- **Get API Key (100 Free Credits)**: [https://serqo.io](https://serqo.io)
+- **Get API Key (500 Free Credits)**: [https://serqo.io](https://serqo.io)
 - **License**: MIT
